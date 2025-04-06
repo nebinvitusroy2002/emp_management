@@ -1,0 +1,19 @@
+CREATE TABLE department (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    creation_date DATE,
+    head_id BIGINT
+);
+
+CREATE TABLE employee (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    dob DATE,
+    salary DOUBLE,
+    address TEXT,
+    role VARCHAR(50),
+    joining_date DATE,
+    yearly_bonus_percentage DOUBLE,
+    department_id BIGINT,
+    manager_id BIGINT
+);

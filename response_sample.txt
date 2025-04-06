@@ -1,0 +1,36 @@
+api-json-schemas.md :  {
+  			"name": "HR",
+  			"departmentHead": {
+    			"id": 1
+  				}
+			}
+
+Response1 : 
+{
+  "id": 5,
+  "name": "HR",
+  "creationDate": "2025-04-05",
+  "departmentHead": {
+    "id": 1,
+    "name": "John"
+  }
+}
+
+Response2 :
+{
+  "name": "Alice",
+  "dob": "1992-08-15",
+  "salary": 70000,
+  "address": "Bangalore",
+  "role": "Developer",
+  "joiningDate": "2023-06-01",
+  "yearlyBonusPercentage": 10.0
+}
+
+Response3 :
+{
+  "id": 10,
+  "name": "Alice",
+  ...
+}
+
